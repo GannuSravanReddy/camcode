@@ -24,11 +24,11 @@ const Footer = () => {
                     <div className="col-6 col-lg-2 offset-lg-1 mb-3">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="/">Home</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/">Docs</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/examples/">Examples</a></li>
-                            <li className="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-                            <li className="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+                            <li className="mb-2"><a href="/" className="link-secondary text-decoration-none">Home</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/" className="link-secondary text-decoration-none">Docs</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/examples/" className="link-secondary text-decoration-none">Examples</a></li>
+                            <li className="mb-2"><a href="https://themes.getbootstrap.com/" className="link-secondary text-decoration-none">Themes</a></li>
+                            <li className="mb-2"><a href="https://blog.getbootstrap.com/" className="link-secondary text-decoration-none">Blog</a></li>
                         </ul>
                     </div>
 
@@ -36,10 +36,10 @@ const Footer = () => {
                     <div className="col-6 col-lg-2 mb-3">
                         <h5>Guides</h5>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/examples/starter-template/">Starter template</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/getting-started/webpack/">Webpack</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/getting-started/parcel/">Parcel</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/getting-started/" className="link-secondary text-decoration-none">Getting started</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/examples/starter-template/" className="link-secondary text-decoration-none">Starter template</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/getting-started/webpack/" className="link-secondary text-decoration-none">Webpack</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/getting-started/parcel/" className="link-secondary text-decoration-none">Parcel</a></li>
                         </ul>
                     </div>
 
@@ -47,11 +47,11 @@ const Footer = () => {
                     <div className="col-6 col-lg-2 mb-3">
                         <h5>Projects</h5>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
-                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
-                            <li className="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
-                            <li className="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
-                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap" className="link-secondary text-decoration-none">Bootstrap 5</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev" className="link-secondary text-decoration-none">Bootstrap 4</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/icons" className="link-secondary text-decoration-none">Icons</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/rfs" className="link-secondary text-decoration-none">RFS</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter" className="link-secondary text-decoration-none">npm starter</a></li>
                         </ul>
                     </div>
 
@@ -59,12 +59,12 @@ const Footer = () => {
                     <div className="col-6 col-lg-2 mb-3">
                         <h5>Community</h5>
                         <ul className="list-unstyled">
-                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
-                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
-                            <li className="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
-                            <li className="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
-                            <li className="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
-                            <li className="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/issues" className="link-secondary text-decoration-none">Issues</a></li>
+                            <li className="mb-2"><a href="https://github.com/twbs/bootstrap/discussions" className="link-secondary text-decoration-none">Discussions</a></li>
+                            <li className="mb-2"><a href="https://github.com/sponsors/twbs" className="link-secondary text-decoration-none">Corporate sponsors</a></li>
+                            <li className="mb-2"><a href="https://opencollective.com/bootstrap" className="link-secondary text-decoration-none">Open Collective</a></li>
+                            <li className="mb-2"><a href="https://bootstrap-slack.herokuapp.com/" className="link-secondary text-decoration-none">Slack</a></li>
+                            <li className="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5" className="link-secondary text-decoration-none">Stack Overflow</a></li>
                         </ul>
                     </div>
 
